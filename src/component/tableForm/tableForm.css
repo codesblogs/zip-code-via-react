@@ -1,0 +1,59 @@
+body {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: peachpuff;
+    align-items: center;
+  }
+  
+  
+  table{
+    color: black;
+    border: 2px solid black;
+  }
+  
+  th{
+    background-color: yellow;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .sno {
+    background-color: yellow;
+    font-weight: bold;
+    align-items: right;
+    justify-content: center;
+    padding-left: 25px;
+  }
+
+  .container {
+    align-items: center;
+    background-color: lightblue;
+    border: 2px solid black;
+    margin-top: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+input{
+    height: 30px;
+    width: 240px;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    background-color: peachpuff;
+    margin-right: 10px;
+}
+
+
+button {
+    padding: 6px;
+    background-color: blue;
+    border-radius: 0.5rem;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+}
